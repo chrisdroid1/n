@@ -5,4 +5,4 @@ APP_ID = Config.APP_ID
 APP_HASH = Config.APP_HASH
 TOKEN = Config.TOKEN
 
-LYCIA = Client(':memory:', api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+LYCIA = Client(':memory:', app_id=APP_ID, app_hash=API_HASH, bot_token=TOKEN)
